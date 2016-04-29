@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Github People Finder</title>
+    <link rel="shortcut icon" type="image/x-icon" href="http://iconshow.me/media/images/ui/ios7-icons/png/512/social-github-outline.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" charset:"utf-8">
+    <link rel="stylesheet" href="css/github_API.css" media="screen" charset:"utf-8">
+    <script src="js/jquery.min.js" charset="utf-8"></script>
+    <script src="js/github_API.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-offset-2">
+          <div class "page-header">
+            <h1>Github People Finder</h1>
+            <p>This app is built to test Mike's ability to call the Github API for RC Academy class Week 4 Day 3. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <input type="text" id="githubName" placeholder="Enter a github name"> <button class="btn btn-primary" id="search">Search</button>
+    </div>
+
+    <div class = "row" id = "results">
+        <div class = "col-md-6">
+          <img src = "" class ="img img-circle" id="photo">
+          <h2 id = "name"></h2>
+          <p id ="location"></p>
+          <p>
+            <a href="" id="github_url" class="btn btn-success">Github</a>
+            <a href="" id="blog_url" class="btn btn-success">Blog</a>
+          </p>
+        </div>
+    </div>
+    <div class = "col-md-6">
+    </div>
+  </body>
+</html>
